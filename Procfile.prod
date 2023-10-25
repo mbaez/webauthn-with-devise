@@ -1,2 +1,2 @@
 web: bundle exec puma -C config/puma.rb
-vite: bin/vite dev
+release: bundle exec rails db:migrate
